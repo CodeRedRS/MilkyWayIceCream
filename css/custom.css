@@ -170,7 +170,7 @@ section {
 }
 
 section > .row {
-    background-color: rgba(0, 0, 0, 0.05);
+    /*background-color: rgba(0, 0, 0, 0.05);*/
 }
 
 /* Horizontal Row */
@@ -236,4 +236,30 @@ section > div > div > h1 {
     -moz-animation-delay: 1s;
     -o-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#header > .row > div:nth-child(odd) {
+    background: #cc0000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header > .row > div:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header div > h4 {
+}
+
+#header {
 }
